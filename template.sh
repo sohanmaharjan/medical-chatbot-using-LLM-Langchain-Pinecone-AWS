@@ -10,7 +10,7 @@ touch .env
 touch setup.py
 touch app.py
 touch research/trials.ipynb
-touch research/requirements.txt
+touch requirements.txt
 
 #Terminal message
 echo "Project directories and files created successfully."
