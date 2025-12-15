@@ -33,7 +33,7 @@ if not pincone_client.has_index(index_name):
         name=index_name,
         dimension=384,
         metric="cosine",
-        spec=ServerlessSpec(cloud="aws", region="ap-southeast-2"),
+        spec=ServerlessSpec(cloud="aws", region="us-east-1"),
     )
 
 index = pincone_client.Index(index_name)
